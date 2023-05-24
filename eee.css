@@ -1,0 +1,693 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: hsl(0, 0%, 0%);
+    
+}
+
+.container{
+    width:100%;
+    margin:  auto;
+    padding: 0 15px;
+    position: relative;
+}
+.row{  display: flex;
+    flex-wrap:wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row> *{ width: 100%;
+    padding: 0 15px;	
+}
+ 
+
+
+    /* comman style  start--------------------------------------*/
+
+    :root{
+        --primary-color:#c5c6c7 ;
+        --secondery-color:#ff006e;
+        --end-color:#4361ee;
+    }
+   span{
+    color: #ff006e;
+   }
+
+   
+    .head{
+        padding-top:30px;
+    }
+    .section-head{
+        margin-top: 40px;
+    }
+
+    .intro-home,.about-home,.resume-home,.skill-home,.contact-home {
+        border-radius: 25px;
+        padding: 8px 4px;   
+        border: 1px solid var(--primary-color);
+        width: 20%;
+        text-align: center;
+        margin-bottom: 30px;
+        color:var(--primary-color);
+    }
+    .intro-home:hover,.about-home:hover,.resume-home:hover,.skill-home:hover,.contact-home:hover {
+     
+        box-shadow: 0 0  2px 3px  var(--secondery-color);
+        border:1px solid var(--secondery-color);
+        color: white !important;
+        
+        
+        
+    }
+    .section-head h3{
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        color:var(--primary-color);
+        font-style: italic;
+
+    }
+    
+
+
+    .skill-details1{
+        width: 150%;
+        margin: auto;
+        display: none;
+        padding: 30px;
+        background-color: lightgray;
+        color: black;   
+        box-shadow: 0 0 2px 8px white; 
+    }
+    .skill-details2{
+        width: 150%;
+        margin: auto;
+        display: none;
+        padding: 30px;
+        background-color: lightgray;
+        color: black;   
+        box-shadow: 0 0 2px 8px white; 
+    }
+    .skill-details3{
+        width: 150%;
+        margin: auto;
+        display: none;
+        padding: 30px;
+        background-color: lightgray;
+        color: black;   
+        box-shadow: 0 0 2px 8px white; 
+    }
+    .skill-details4{
+        width: 150%;
+        margin: auto;
+        display: none;
+        padding: 30px;
+        background-color: lightgray;
+        color: black;   
+        box-shadow: 0 0 2px 8px white; 
+    }
+    .skill-details5{
+        width: 150%;
+        margin: auto;
+        display: none;
+        padding: 30px;
+        background-color: lightgray;
+        color: black;   
+        box-shadow: 0 0 2px 8px white; 
+    }
+    
+    .skill-pic {
+        position: relative;
+    }
+    .skill-pic1{
+        position: relative;
+ 
+    }
+    .skill-pic h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px 0;
+    }
+    .icon-iocn{
+        position: absolute;
+        bottom: 10px;
+        right: 140px;
+    }
+    .icon-iocn i{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0px 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid black;
+        text-align: center;
+        line-height: 2;
+        opacity: 0;
+    }
+    .icon-iocn a{
+        text-decoration: none;
+        color: black !important;
+    }
+
+      .icon-iocn1{
+        position: absolute;
+        bottom: 10px;
+        right: 350px;   
+    }
+    .icon-iocn1{
+        margin-top: 10px;
+    }
+    .icon-iocn1 i{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0px 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid black;
+        text-align: center;
+        line-height: 2;
+        opacity: 0;
+    }
+    .icon-iocn1 a{
+        text-decoration: none;
+        color: black !important;
+    }
+    .skill-pic:hover i{
+        opacity: 1;
+        transform: translateY(50px);
+        transition: all 0.5s ease;
+        background-color: white;
+    }
+    .skill-pic1:hover i{
+        opacity: 1;
+        background-color: white;
+    }
+   
+    .skill-off-btn {
+        text-align: end;
+     
+    }
+    .skill-off-btn i{
+        font-size: 20px;
+    }
+    .skill-cont h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .skill-cont {
+        padding-top: 30px;
+    }
+   
+    
+    /* comman style  end--------------------------------------*/
+
+
+    /* nav style  start---------------------------------------- */
+    .menu-cont{
+        position: relative;
+    }
+
+    .menu-bar{
+        text-align: center;
+        rotate: 90deg;
+        position: fixed;
+        top:50px;
+       right:-80px;
+        margin-top: 100px;
+        z-index: 1;
+       
+    }
+    .menu-bar i{
+        rotate: 270deg;
+       font-size: 28px;
+       border: 1px solid var(--primary-color);
+       padding: 10px;
+       border-radius: 5px; 
+       text-decoration: none;
+       color: var(--primary-color); 
+    }
+    .menu-bar i:hover{
+        background-color: var(--secondery-color);
+        color:white;
+        box-shadow: 0 0 2px 2px var(--secondery-color);
+        border:1px solid var(--secondery-color);
+    }
+ 
+ /* nav style  end---------------------------------------- */
+
+ /* my-profile start --------------------------------------*/
+
+    .my-photo{
+        box-shadow: 0 0 2px 2px var(--primary-color);
+      position: sticky;
+      top:0px;
+      padding: 20px;
+     
+    
+    }
+    .my-photo:hover{
+        box-shadow: 0 0 2px 2px var(--secondery-color);
+    
+    }
+    
+    .my-img{
+        text-align: center;
+        padding: 5px;
+        position: relative;
+    } 
+    .bar-btn{
+        position: absolute;
+        top:-35px;
+        right: 7px;
+    }
+    .bar-btn i{
+        font-size: 20px;
+    }
+    .my-img img{
+        border-radius: 10px;
+        background-color: white;
+    }
+    /* .my-img img:hover{
+        box-shadow: 0 0 2px 4px var(--secondery-color);
+    } */
+    .my-head-cont{
+        font-size: 14px;
+        font-weight: 700;
+        word-wrap: break-word;
+        padding: 10px;
+        color:var(--primary-color);
+
+    }
+    .my-head-icon {
+        text-align: center;
+        font-size: 70px;
+        margin-top: 20px;
+        color:var(--primary-color);
+    }
+    .my-head-icon a{
+        color: white;
+    }
+
+    .my-head-name h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 0;
+        color:var(--primary-color);
+    }
+    .download-btn{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .download-btn button{
+        padding: 5px 10px;
+        color:var(--primary-color);
+        background-color: green;
+        border: none;
+        border-radius: 10px;    
+        box-shadow:  0 0 1px 2px green;
+    }
+    .download-btn button a{
+        text-decoration: none;
+        color: white;
+    }
+    .download-btn button:hover{
+        box-shadow: 0 0 2px 4px var(--secondery-color);
+        background-color: var(--secondery-color);
+    }
+    .my-head-cont a{
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+    /* my-profile end --------------------------------------*/
+
+
+    /* intro start ---------------------------------------*/
+   
+    .intro-home i{
+        padding: 0px 10px;
+    }
+    .intro-home a{
+        text-decoration: none;
+        color: var(--primary-color);
+    } 
+    .intro-head h1{
+        font-size: 60px;
+        color:var(--primary-color);
+        text-align: center;
+        font-weight: 600;
+        
+    }
+    .intro-head p{
+        font-size: 20px;
+        padding-top: 40px;
+        color:var(--primary-color);
+        text-align: center;
+    }
+    .intro-exp{
+        margin-top: 50px;
+        color:var(--primary-color);
+        text-align: center;
+    }
+    .intro-exp-img img{
+      
+        border-radius: 50%;
+    
+    }
+    .intro-exp-img{
+        position: relative;
+    }
+    .fabevy-cont a{
+        
+        text-decoration: none;
+        color: white;
+       
+    }
+    .fabevy-cont {
+         padding: 10px 0;
+        width: 210px;
+       left:111px;
+        position: absolute;
+        bottom:-10px;
+        opacity: 0;  
+    }
+    .intro-exp-img:hover .fabevy-cont{
+        opacity: 1;
+     
+    }
+    .intro-exp-cont p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .intro-exp-cont span{
+        font-size: 50px;
+        font-weight: 600;
+    }
+   
+   
+   
+   
+   
+      /* intro end---------------------------------------*/
+
+
+      /* about :start -------------------------------------*/
+      .about-home i{
+        padding: 0px 10px;
+    }
+    .about-home a{
+        text-decoration: none;
+        color: var(--primary-color);
+    } 
+    .about-head p{
+        color: var(--primary-color);
+        word-wrap: break-word;
+        line-height: 1.8;
+    }
+    .about-head{
+        width: 90%;
+    }
+   
+      /* about end------------------------------------- */
+   
+    
+/* resume start --------------------------------------*/
+
+      .resume-home i{
+        padding: 0px 10px;
+    }
+    .resume-home a{
+        text-decoration: none;
+        color: var(--primary-color);
+    } 
+.resume-ul i{
+  padding: 0 10px;
+  color: var(--primary-color);
+}
+.resume-ul i:hover{
+    color: var(--secondery-color);
+}
+
+.resume-ul p{
+    text-indent: 50px;
+    color: var(--primary-color);
+}
+.resume-head{
+    color: var(--primary-color);
+}
+.resume-ul li{
+    line-height: 3;
+}
+    /* resume end --------------------------------------*/
+
+    /* skill :start---------------------------------------- */
+   
+
+    .skill-home i{
+        padding: 0px 10px;
+    }
+    .skill-home a{
+        text-decoration: none;
+        color: var(--primary-color);
+    } 
+    .skill-img .skill-java{
+        border-radius: 100px;
+    }
+    .skill-img{
+        text-align: center;
+       margin-top: 30px;
+       padding-bottom: 50px;
+       /* border-bottom: 2px dashed white; */
+       position: relative;    
+    }
+    .skill-img a{
+        text-decoration: none;
+        color:var(--primary-color);
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid var(--secondery-color);
+        border-radius: 50%;
+        padding: 10px 12px;
+    }
+
+
+    .add1-icon{
+        position: absolute;
+        top:-12px;
+        left:-11px;
+        display: none;
+    }
+    .add2-icon{
+        position: absolute;
+        bottom: 14px;
+        left:70px;
+        display: none;
+    }
+    .add3-icon{
+        position: absolute;
+        right: -11px;
+        top:-6px;
+        display: none;
+    }
+    .skill-img:hover .add1-icon{
+        display: block;
+    }
+    .skill-img:hover .add2-icon{
+        display: block;
+    }
+    .skill-img:hover .add3-icon{
+        display: block;
+    }
+    .skill-img img{
+        border: 3px dotted white;
+        border-radius: 100px;
+        padding: 10px;
+    }
+   
+      
+    .skill-head{
+        margin-top: 50px;
+    }
+    .skill-head button{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+    }
+    .skill-head button:hover{
+        /* box-shadow: 0 0 2px 8px var(--secondery-color); */
+        cursor: pointer;
+    }
+    .skill-mycont{
+        word-wrap: break-word;
+        background-color: white;
+        color: black;
+      
+    }
+    .skill-mycont h1{
+        text-align: center;
+       
+    }
+    
+    
+    .skill-off-btn button{
+        background-color: transparent;
+        color: black;
+       
+    }
+    .skill-mycont p{
+        margin-bottom: 30px;
+    }
+    .skill-mycont{
+        margin-bottom: 60px;
+    }
+   
+    .procees,.procees1,.procees2,.procees3,.procees4{
+        position: relative;
+        height: 25vh;
+        width: 25vh;
+      background: conic-gradient( aqua 3.6deg, black 0deg);
+        margin: auto;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .procees::before{
+        content: "";
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .procees1::before{
+        content: "";
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .procees2::before{
+        content: "";
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .procees3::before{
+        content: "";
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .procees4::before{
+        content: "";
+        position: absolute;
+        height: 20vh;
+        width: 20vh;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .pro-value, .pro-value1, .pro-value2, .pro-value3, .pro-value4{
+        position: relative;
+        color:white;
+        font-size: 20px;
+        font-weight: 700;
+      
+    }
+    .skil-process{
+        margin-bottom: 30px;
+        /* border-bottom: 2px dashed white; */
+    }
+    .skil-process h1{
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .skill-cont li{
+        list-style: circle;
+        line-height: 2;
+    }
+    
+
+
+    /* skill end---------------------------------------- */
+
+    /* contact :start-------------- */
+    .contact-home i{
+        padding: 0px 10px;
+    }
+    .contact-cont i:hover {
+        background-color: var(--secondery-color);
+        box-shadow: 0 0 2px 2px var(--secondery-color);
+        color:white;
+        border: none;
+
+    }
+
+    .contact-home a{
+        text-decoration: none;
+        color: var(--primary-color);
+    } 
+    .contact-cont i{
+        margin-right: 10px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--primary-color);
+        line-height: 2.5;
+        border-radius: 100px;
+        margin-bottom: 20px;
+    }
+   
+    .contact-cont{
+        text-align: center;
+        color: var(--primary-color);
+    }
+    .address-box address{
+        border-bottom: 1px solid var(--primary-color);
+        height: 8vh;
+    }
+    .copy{
+    
+       text-align: center;
+        padding: 20px 0;
+        color: var(--primary-color); 
+    }
+    
+    
+
+    /* contact end ------------------*/
