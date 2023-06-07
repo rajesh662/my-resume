@@ -1,0 +1,555 @@
+
+
+ /* mobile device start---------------*/
+
+@media (max-width:576px) {
+    
+    .col-xs-1{
+        flex:0 0 auto;	
+        width: 8.33%;
+        }	
+        .col-xs-2{ 
+        flex:0 0 auto;	
+        width: 16.66%;
+        }	
+        .col-xs-3{ 
+        flex:0 0 auto;	
+        width: 25%;
+        }	
+        .col-xs-4{ 
+        flex:0 0 auto;	
+        width: 33.33%;
+        }	
+        .col-xs-5{ 
+        flex:0 0 auto;
+        width: 41.66%;
+        }	
+        .col-xs-6{ 
+        flex:0 0 auto;
+        width: 50%;
+        }	
+        .col-xs-7{ 
+        flex:0 0 auto;
+        width: 58.33%;
+        }	
+        .col-xs-8{
+            flex:0 0 auto;
+            width: 66.66%;
+        }	
+        .col-xs-9{
+            flex:0 0 auto;
+            width: 75%;
+        }	
+        .col-xs-10{
+            flex:0 0 auto;
+            width: 83.33%;
+        }	
+        .col-xs-11{ 
+        flex:0 0 auto;
+        width: 91.66%;
+        }	
+        .col-xs-12{ 
+        flex:0 0 auto;
+        width: 100%;
+        }
+
+        .my-head-cont{
+            text-align: center;
+        }
+        .menu-bar{
+            right:-100px;
+			top:160px;
+        }
+        .intro-home,.about-home,.resume-home,.skill-home,.contact-home {
+            width: 50%;
+        }
+        .intro-head h1{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .fabevy-cont{
+            left:-24px;
+            bottom: -27px;
+        }
+        .skill-img{
+            margin-top: 40px;
+        }
+       
+        .procees,.procees1,.procees2,.procees3,.procees4{
+           
+            height: 20vh;
+            width: 20vh; 
+        }
+        .procees::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees1::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees2::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+
+        .procees3::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees4::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .skil-process h1{
+            font-size: 20px;
+        }
+        .add1-icon{
+            top:-8px;
+        }
+        .add2-icon{
+            left: 141px;
+        }
+        .address-box{
+            margin-bottom: 20px;
+        }
+        .skill-img{
+            border: none;
+            margin-bottom: 40px;
+        }
+        .skil-process{
+            border: none;
+        }
+        .skill-details1,.skill-details2,.skill-details3,.skill-details4,.skill-details5{
+            width: 85%;
+            margin: auto;
+        }
+        .icon-iocn1{
+            bottom: 10px;
+            left: 0px;
+            display: flex;
+        }
+        .icon-iocn1 i{
+            margin: 0 5px;
+        }
+
+        .icon-iocn{
+            left: 0px;
+            display: flex;
+        }
+        .skill-pic h1{
+            padding: 35px 0;
+        }
+        .intro-exp-img{
+            margin-bottom: 40px;
+        }
+        .d-none{
+            display: none;
+        }
+       
+}
+
+
+ /* mobile device  end---------------*/
+
+
+
+
+/* mobile horizontal start-----------------*/
+
+
+
+ @media (min-width:576px) and (max-width:768px) {
+    
+    .col-xm-1{
+        flex:0 0 auto;	
+        width: 8.33%;
+        }	
+        .col-xm-2{ 
+        flex:0 0 auto;	
+        width: 16.66%;
+        }	
+        .col-xm-3{ 
+        flex:0 0 auto;	
+        width: 25%;
+        }	
+        .col-xm-4{ 
+        flex:0 0 auto;	
+        width: 33.33%;
+        }	
+        .col-xm-5{ 
+        flex:0 0 auto;
+        width: 41.66%;
+        }	
+        .col-xm-6{ 
+        flex:0 0 auto;
+        width: 50%;
+        }	
+        .col-xm-7{ 
+        flex:0 0 auto;
+        width: 58.33%;
+        }	
+        .col-xm-8{
+            flex:0 0 auto;
+            width: 66.66%;
+        }	
+        .col-xm-9{
+            flex:0 0 auto;
+            width: 75%;
+        }	
+        .col-xm-10{
+            flex:0 0 auto;
+            width: 83.33%;
+        }	
+        .col-xm-11{ 
+        flex:0 0 auto;
+        width: 91.66%;
+        }	
+        .col-xm-12{ 
+        flex:0 0 auto;
+        width: 100%;
+        }
+        .skill-img{
+            border-bottom: none;
+        }
+        .add2-icon{
+            left:95px;
+        }
+        .address-box{
+            margin-bottom: 20px;
+        }
+        .menu-bar{
+            right:-80px;
+			top:150px;
+        }
+        .procees,.procees1,.procees2,.procees3,.procees4{
+           
+            height: 25vh;
+            width: 25vh; 
+        }
+        .procees::before{
+          
+            height: 20vh;
+            width: 20vh; 
+        }
+        .procees1::before{
+          
+            height: 20vh;
+            width: 20vh; 
+        }
+        .procees2::before{
+          
+            height: 20vh;
+            width: 20vh; 
+        }
+
+        .procees3::before{
+          
+            height: 20vh;
+            width: 20vh; 
+        }
+        .procees4::before{
+          
+            height: 20vh;
+            width: 20vh; 
+        }
+        .intro-home,.about-home,.resume-home,.skill-home,.contact-home {
+            width: 33%;
+        }
+        .skill-details1,.skill-details2,.skill-details3,.skill-details4,.skill-details5{
+            width: 85%;
+        }
+        .icon-iocn1{
+            left: 0px;
+        }
+        
+        .icon-iocn{
+            left: 0px;
+            display: flex;
+        }
+        .fabevy-cont{
+            left: 45px;
+        }
+        .d-none{
+            display: none;
+        }
+      
+ }
+
+ /* mobile horizontal end-----------------*/
+
+
+ @media (min-width:768px) and (max-width:992px) {
+   
+
+    .col-md-1{
+        flex:0 0 auto;	
+        width: 8.33%;
+        }	
+        .col-md-2{ 
+        flex:0 0 auto;	
+        width: 16.66%;
+        }	
+        .col-md-3{ 
+        flex:0 0 auto;	
+        width: 25%;
+        }	
+        .col-md-4{ 
+        flex:0 0 auto;	
+        width: 33.33%;
+        }	
+        .col-md-5{ 
+        flex:0 0 auto;
+        width: 41.66%;
+        }	
+        .col-md-6{ 
+        flex:0 0 auto;
+        width: 50%;
+        }	
+        .col-md-7{ 
+        flex:0 0 auto;
+        width: 58.33%;
+        }	
+        .col-md-8{
+            flex:0 0 auto;
+            width: 66.66%;
+        }	
+        .col-md-9{
+            flex:0 0 auto;
+            width: 75%;
+        }	
+        .col-md-10{
+            flex:0 0 auto;
+            width: 83.33%;
+        }	
+        .col-md-11{ 
+        flex:0 0 auto;
+        width: 91.66%;
+        }	
+        .col-md-12{ 
+        flex:0 0 auto;
+        width: 100%;
+        }
+        .menu-bar{
+            right:-80px;
+			top:150px;
+        }
+         .intro-home,.about-home,.resume-home,.skill-home,.contact-home {
+            width: 25%;
+        }
+
+        .procees,.procees1,.procees2,.procees3,.procees4{
+           
+            height: 20vh;
+            width: 20vh; 
+        }
+        .procees::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees1::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees2::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+
+        .procees3::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+        .procees4::before{
+          
+            height: 15vh;
+            width: 15vh; 
+        }
+
+        .skill-img{
+            border: none;
+        }
+        .skil-process{
+            border: none;
+        }
+        .my-head-cont{
+            text-align:center;
+            font-size: 25px;
+        }
+        .my-head-name h1{
+            font-size: 50px;
+        }
+        .add2-icon{
+            left:155px;
+        }
+        .add1-icon{
+            top:0px;
+            left: 20px;
+            
+        }
+        .add3-icon{
+            top:0px;
+            right: 20px;
+        } 
+        .icon-iocn {
+            right: 285px;
+        }
+        .icon-iocn1{
+            left: 0px;
+        }
+        
+        .icon-iocn{
+            left: 0px;
+            display: flex;
+        }
+        .fabevy-cont{
+            left: 70px;
+        }
+       
+        .bar-btn i{
+            font-size: 30px;
+           
+        }
+        .bar-btn{
+            top:-50px;
+        }
+        .skill-details1,.skill-details2,.skill-details3,.skill-details4,.skill-details5{
+            width: 85%;
+        }
+        .skill-pic-cont{
+          
+            margin-bottom: 20px;
+           
+        }
+        .d-none{
+            display: none;
+        }
+      
+ }
+
+ @media (min-width:992px) {
+   
+     .col-lg-1{
+        flex:0 0 auto;
+        width: 8.33%;
+        }	
+        .col-lg-2{ 
+            flex:0 0 auto;
+        width: 16.66%;
+        }	
+        .col-lg-3{ 
+            flex:0 0 auto;
+        width: 25%;
+        }	
+        .col-lg-4{ 
+            flex:0 0 auto;
+        width: 33.33%;
+        }	
+        .col-lg-5{ 
+            flex:0 0 auto;
+        width: 41.66%;
+        }	
+        .col-lg-6{ 
+            flex:0 0 auto;
+        width: 50%;
+        }	
+        .col-lg-7{ 
+            flex:0 0 auto;
+        width: 58.33%;
+        }	
+        .col-lg-8{
+            flex:0 0 auto;
+            width: 66.66%;
+        }	
+        .col-lg-9{
+            flex:0 0 auto;
+            width: 75%;
+        }	
+        .col-lg-10{
+            flex:0 0 auto;
+            width: 83.33%;
+        }	
+        .col-lg-11{
+            flex:0 0 auto; 
+        width: 91.66%;
+        }	
+        .col-lg-12{ 
+            flex:0 0 auto;
+        width: 100%;
+        } 
+        .bar-btn{
+            display: none;
+        }
+        .skill-pic-cont{
+        margin-right: 40px;
+        margin-bottom: 20px;
+       
+    }
+       
+ }
+ @media (min-width:1200px) {
+   
+
+    .col-lg-1{
+        flex:0 0 auto;
+        width: 8.33%;
+        }	
+        .col-lg-2{ 
+            flex:0 0 auto;
+        width: 16.66%;
+        }	
+        .col-lg-3{ 
+            flex:0 0 auto;
+        width: 25%;
+        }	
+        .col-lg-4{ 
+            flex:0 0 auto;
+        width: 33.33%;
+        }	
+        .col-lg-5{ 
+            flex:0 0 auto;
+        width: 41.66%;
+        }	
+        .col-lg-6{ 
+            flex:0 0 auto;
+        width: 50%;
+        }	
+        .col-lg-7{ 
+            flex:0 0 auto;
+        width: 58.33%;
+        }	
+        .col-lg-8{
+            flex:0 0 auto;
+            width: 66.66%;
+        }	
+        .col-lg-9{
+            flex:0 0 auto;
+            width: 75%;
+        }	
+        .col-lg-10{
+            flex:0 0 auto;
+            width: 83.33%;
+        }	
+        .col-lg-11{
+            flex:0 0 auto; 
+        width: 91.66%;
+        }	
+        .col-lg-12{ 
+            flex:0 0 auto;
+        width: 100%;
+        }
+        .skill-pic-cont{
+        margin-right: 60px;
+        margin-bottom: 30px;
+       
+    }
+} 
